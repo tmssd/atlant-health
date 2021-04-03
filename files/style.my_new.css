@@ -36,23 +36,21 @@ body {
     /* z-index: 100; */
     background: transparent;
 	margin: 0.6em 0 0 1em;
+	padding: 0 0 0 5px;
 
     /* display:flex;
     flex-flow: column nowrap;
     justify-content: space-between; */
-
 }
 
 	@media only screen and (max-width: 1045px) {
-			#menu-one-pager-menu {
-			font-size: 0.5em;
-			padding: 0;
+		#menu-one-pager-menu {
+		font-size: 0.5em;
+		padding: 0;
 		},
-
-			/* #flags {
-			font-size: 0.3em;
-			padding: 0;
-		} */
+		.flag {
+		/* display: block !important; */
+		}
 	}
 
 #menu-one-pager-menu {
@@ -178,7 +176,7 @@ body.sticky_header .header {
 }
 .logo {
 	margin: 15px 0;
-    padding-left: 3em;
+    padding-left: 4.4em;
 	display: inline-block;
 }
 .logo a.brand {
@@ -218,6 +216,16 @@ span.close_menu {
 	z-index: 100;
 	background: transparent;
 }
+
+#menu_container_heb {
+	width: 41em
+	/* margin-right: 0em; */
+}
+
+#menu_container_ru {
+	width: 44em
+}
+
 .menu_container ul.main_menu,
 .top_menu_container ul.main_menu,
 .menu_container ul.top_menu,
