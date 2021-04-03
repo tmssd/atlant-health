@@ -46,11 +46,17 @@ body {
 	@media only screen and (max-width: 1045px) {
 		#menu-one-pager-menu {
 		font-size: 0.45em;
-		padding: 0;
+		padding-left: 45em;
+		margin-right: 2em;
 		},
-		.flag {
-		/* display: block !important; */
-		}
+		#menu_container_heb {
+			/* width: 40.75em;
+			margin-right: 2.5em; */
+		},
+		#menu_container_ru {
+			/* width: 100rem; */
+			/* margin-right: 11.5em; */
+		},
 	}
 
 #menu-one-pager-menu {
@@ -74,11 +80,10 @@ body {
 }
 
 .container {
-    /* margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px; */
-
+    padding-left: 2.5em;
+    /* padding-right: 2em; */
 }
 
 .header {
@@ -176,7 +181,7 @@ body.sticky_header .header {
 }
 .logo {
 	margin: 15px 0;
-    padding-left: 4.4em;
+    /* padding-left: 1.5em; */
 	display: inline-block;
 }
 .logo a.brand {
@@ -218,12 +223,13 @@ span.close_menu {
 }
 
 #menu_container_heb {
-	width: 40.75em
-	/* margin-right: 0em; */
+	width: 40.75em;
 }
 
 #menu_container_ru {
-	width: 44em
+	/* width: 43em; */
+	width: 700px;
+	/* margin-right: 1.5em; */
 }
 
 .menu_container ul.main_menu,
