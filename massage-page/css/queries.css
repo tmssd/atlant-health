@@ -306,7 +306,7 @@ when used inside '@media', so we always use 'em'! */
 
   .social-links {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     justify-content: center;
   }
 }
