@@ -237,10 +237,6 @@ when used inside '@media', so we always use 'em'! */
 /***********************************************/
 
 @media (max-width: 44em) {
-  html {
-    /* 7px / 16px */
-    font-size: 43.75%;
-  }
 
   .hero-img {
     width: 50%;
@@ -322,8 +318,8 @@ when used inside '@media', so we always use 'em'! */
 
 @media (max-width: 34em) {
   html {
-    /* 6px / 16px */
-    font-size: 37.5%;
+    /* 7px / 16px */
+    font-size: 43.75%;
   }
 
   .grid {
