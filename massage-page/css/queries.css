@@ -9,7 +9,7 @@ when used inside '@media', so we always use 'em'! */
 /* 1450px / 16px = 90.625em */
 @media (max-width: 90.625em) {
   html {
-    /* 9px / 16px */
+    /*  setting 1rem to 9px instead of 10px: 9px / 16px = 56.25% */
     font-size: 56.25%;
   }
 
@@ -19,6 +19,8 @@ when used inside '@media', so we always use 'em'! */
 
   .heading-primary {
     font-size: 4.4rem;
+    /* overflow-wrap: break-word; */
+    /* max-width: 100%; */
   }
 
   .gallery {
@@ -32,10 +34,6 @@ when used inside '@media', so we always use 'em'! */
 /***********************************************/
 
 @media (max-width: 81.25em) {
-  html {
-    /*  setting 1rem to 9px instead of 10px: 9px / 16px = 56.25% */
-    /* font-size: 56.25%; */
-  }
 
   .grid {
     column-gap: 4.8rem;
@@ -317,9 +315,8 @@ when used inside '@media', so we always use 'em'! */
 /***********************************************/
 
 @media (max-width: 34em) {
-  html {
-    /* 7px / 16px */
-    font-size: 43.75%;
+  .long-word {
+    hyphens: auto;
   }
 
   .grid {
