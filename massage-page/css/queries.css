@@ -315,10 +315,6 @@ when used inside '@media', so we always use 'em'! */
 /***********************************************/
 
 @media (max-width: 34em) {
-  .long-word {
-    hyphens: auto;
-  }
-
   .grid {
     row-gap: 4.8rem;
   }
@@ -392,5 +388,27 @@ when used inside '@media', so we always use 'em'! */
   .footer-link:link,
   .footer-link:visited {
     font-size: 1.7rem;
+  }
+}
+
+
+/***********************************************/
+/* BELOW 409px (Phones) */
+/***********************************************/
+
+@media (max-width: 25.5625em) {
+  .heading-primary .long-word {
+    hyphens: auto;
+  }
+}
+
+
+/***********************************************/
+/* BELOW 354px (Phones) */
+/***********************************************/
+
+@media (max-width: 22.125em) {
+  .heading-secondary .long-word {
+    hyphens: auto;
   }
 }
