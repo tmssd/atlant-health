@@ -235,8 +235,9 @@ when used inside '@media', so we always use 'em'! */
 /***********************************************/
 
 @media (max-width: 44em) {
-  .long-word {
-    hyphens: auto;
+
+  html[lang="ru"] .heading-primary {
+    font-size: 3.4rem;
   }
 
   .hero-img {
