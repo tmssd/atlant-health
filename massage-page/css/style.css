@@ -555,10 +555,11 @@ html[lang="he"] .hero {
 }
 
 .cta-img-box {
-  background-image: linear-gradient(to right bottom,
+  background-image: url(../img/cta-img.webp);
+  /* background-image: linear-gradient(to right bottom,
       rgba(129, 166, 199, 0.35),
       rgba(65, 138, 201, 0.35)),
-    url(../img/cta-img.webp);
+    url(../img/cta-img.webp); */
   background-size: cover;
   background-position: center;
 }
