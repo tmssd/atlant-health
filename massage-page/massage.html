@@ -611,52 +611,57 @@
                 first meal is on us!
               </p> -->
 
-              <form class="cta-form" id="SndMail" name="SndMail" action="../php_files/sendmail.php" method="post">
+              <form class="cta-form" id="SndMail" name="SndMail" action="../php_files/sendmail_mh.php" method="post">
                 <div>
-                  <label for="full-name">שם מלא</label>
+                  <label for="your-name">שם מלא</label>
                   <input
-                    id="full-name"
+                    id="your-name"
                     type="text"
+                    name="your-name"
                     placeholder="ישראל ישראלי"
                     required
                   />
                 </div>
 
                 <div>
-                  <label for="phone">מספר טלפון</label>
+                  <label for="your-telephone">מספר טלפון</label>
                   <input
-                    id="phone"
+                    id="your-telephone"
                     type="text"
+                    name="telephone"
                     placeholder="0501234567"
                     required
                   />
                 </div>
 
                 <div>
-                  <label for="email">Email</label>
+                  <label for="your-email">Email</label>
                   <input
-                    id="email"
+                    id="your-email"
                     type="email"
+                    name="email"
                     placeholder="me@example.com"
                     required
                   />
                 </div>
 
                 <div>
-                  <label for="city">עיר מגורים</label>
+                  <label for="your-city">עיר מגורים</label>
                   <input
-                    id="city"
+                    id="your-city"
                     type="text"
+                    name="city"
                     placeholder="תל אביב יפו"
                     required
                   />
                 </div>
 
                 <div>
-                  <label for="date">תאריך רצוי</label>
+                  <label for="your-date">תאריך רצוי</label>
                   <input
-                    id="date"
+                    id="your-date"
                     type="date"
+                    name="date"
                     placeholder="dd/mm/yyyy"
                     required
                   />
@@ -667,28 +672,30 @@
                   <textarea
                     id="select-where"
                     type="textarea"
+                    name="where"
                     placeholder="תשובתכם כאן"
                     rows="1"
                   ></textarea>
                 </div>
                 <div class="cta-message">
-                  <label for="message">הודעה</label>
+                  <label for="your-message">הודעה</label>
                   <textarea
-                    id="message"
+                    id="your-message"
                     type="textarea"
+                    name="message"
                     placeholder="הודעה שלכם כאן"
                     rows="5"
                     cols="36"
                   ></textarea>
                 </div>
 
-                <button class="btn btn--form">להירשם</button>
+                <button class="btn btn--form" type="submit" name="submit">להירשם</button>
               </form>
             </div>
             <div
               class="cta-img-box"
               role="img"
-              aria-label="Women enjoing food"
+              aria-label="אישה נהנית מעיסוי"
             ></div>
           </div>
         </div>
